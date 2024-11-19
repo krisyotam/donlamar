@@ -1,0 +1,148 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  /* Header */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .nav-button:hover,
+  .nav-button.active {
+    color: #fff;
+  }
+  
+  /* Main Content */
+  .main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    flex: 1;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  /* Social Media Section */
+  .social-media {
+    margin-bottom: 40px;
+  }
+  
+  .social-media-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-item {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .social-link {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .social-link:hover {
+    color: #fff;
+  }
+  
+  /* Websites Section */
+  .websites {
+    margin-bottom: 40px;
+  }
+  
+  .website-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .website-item {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .website-link {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .website-link:hover {
+    color: #fff;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    flex-shrink: 0;
+  }
+  

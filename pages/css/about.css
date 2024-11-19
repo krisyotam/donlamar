@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  /* Header */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .nav-button:hover,
+  .nav-button.active {
+    color: #fff;
+  }
+  
+  /* Main Content */
+  .main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    flex: 1;
+  }
+  
+  /* Reactive Image */
+  .image-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .reactive-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .reactive-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Section Styling */
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  section:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: translateY(-5px);
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  p, ul {
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    flex-shrink: 0;
+  }
+  
+  
