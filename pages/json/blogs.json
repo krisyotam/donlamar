@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "title": "The Future of AI in Creative Industries",
+      "description": "An exploration of how artificial intelligence is shaping the future of creative fields like design, art, and entertainment.",
+      "tags": ["AI", "Creative Industries", "Technology", "Future Trends"],
+      "date": "2023-06-15",
+      "link": "/posts/future-of-ai-in-creative-industries"
+    },
+    {
+      "title": "Embracing Minimalism in Digital Design",
+      "description": "Why minimalism is becoming the go-to approach in digital design, from websites to mobile apps, and how it enhances user experience.",
+      "tags": ["Minimalism", "Design", "User Experience", "Digital"],
+      "date": "2023-06-10",
+      "link": "/posts/embracing-minimalism-in-digital-design"
+    },
+    {
+      "title": "The Power of Personal Branding",
+      "description": "How building a personal brand can influence your career and business, and why it's a necessity in the digital age.",
+      "tags": ["Personal Branding", "Career", "Business", "Marketing"],
+      "date": "2023-06-05",
+      "link": "/posts/the-power-of-personal-branding"
+    },
+    {
+      "title": "Navigating the World of Cryptocurrencies",
+      "description": "An introductory guide to understanding cryptocurrencies, how they work, and their impact on finance and global economies.",
+      "tags": ["Cryptocurrency", "Blockchain", "Finance", "Investment"],
+      "date": "2023-05-30",
+      "link": "/posts/navigating-the-world-of-cryptocurrencies"
+    },
+    {
+      "title": "The Rise of Remote Work Culture",
+      "description": "Examining the shift towards remote work, its challenges, benefits, and how businesses can adapt to this new norm.",
+      "tags": ["Remote Work", "Work Culture", "Business", "Adaptation"],
+      "date": "2023-05-25",
+      "link": "/pages/html/posts/html/post1.html"
+    }
+  ]
+}

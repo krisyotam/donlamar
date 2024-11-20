@@ -8,28 +8,34 @@
 </head>
 <body>
   <div id="app">
+    <!-- Navbar -->
     <header class="header">
-        <nav class="nav">
-          <div class="nav-buttons">
-            <button class="nav-button" onclick="window.location.href='/index.html'">Home</button>
-            <button class="nav-button" onclick="window.location.href='pages/html/about.html'">About</button>
-          </div>
-          <h1 class="title">DON LAMAR</h1>
-          <div class="nav-buttons">
-            <button class="nav-button" onclick="window.location.href='pages/html/follow.html'">Follow</button>
-            <button class="nav-button" onclick="window.location.href='pages/html/contact.html'">Contact</button>
-          </div>
-        </nav>
-      </header>      
+      <nav class="nav">
+        <div class="nav-buttons">
+          <button class="nav-button" onclick="window.location.href='/index.html'">Home</button>
+          <button class="nav-button" onclick="window.location.href='/pages/html/about.html'">About</button>
+        </div>
+        <h1 class="title">DON LAMAR</h1>
+        <div class="nav-buttons">
+          <button class="nav-button" onclick="window.location.href='/pages/html/follow.html'">Follow</button>
+          <button class="nav-button" onclick="window.location.href='/pages/html/contact.html'">Contact</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
     <main class="main-content">
+      <!-- Page content will be injected here dynamically -->
       <div id="page-content" class="content"></div>
     </main>
+
     <!-- Footer Section -->
     <footer class="footer">
       <p>&copy; Don Lamar, 2024. All rights reserved.</p>
     </footer>
   </div>
 
+  <!-- Include script.js -->
   <script src="/pages/js/script.js"></script>
 </body>
 </html>

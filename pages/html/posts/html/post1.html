@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Lamar Blog - Post</title>
+    <link rel="stylesheet" href="/pages/css/posts.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Navbar -->
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-buttons">
+                    <button class="nav-button" onclick="window.location.href='/index.html'">Home</button>
+                    <button class="nav-button" onclick="window.location.href='/pages/html/about.html'">About</button>
+                </div>
+                <h1 class="title">DON LAMAR</h1>
+                <div class="nav-buttons">
+                    <button class="nav-button" onclick="window.location.href='/pages/html/follow.html'">Follow</button>
+                    <button class="nav-button" onclick="window.location.href='/pages/html/contact.html'">Contact</button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Content (Blog Post) -->
+        <div class="blog-page-container">
+            <!-- Left Sidebar (Post Categories) -->
+            <div class="left-sidebar">
+                <div class="sidebar-widget">
+                    <h3><a href="/pages/html/categories.html">Categories</a></h3>
+                    <ul>
+                        <li><a href="/pages/html/categories.html?category=1">Category 1</a></li>
+                        <li><a href="/pages/html/categories.html?category=2">Category 2</a></li>
+                        <li><a href="/pages/html/categories.html?category=3">Category 3</a></li>
+                        <li><a href="/pages/html/categories.html?category=4">Category 4</a></li>
+                    </ul>                    
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Recent Posts</h3>
+                    <ul>
+                        <li><a href="#">Post 1</a></li>
+                        <li><a href="#">Post 2</a></li>
+                        <li><a href="#">Post 3</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main Content (Blog Posts) -->
+            <div class="blog-main">
+                <div class="blog-posts" id="blog-posts">
+                    <!-- Blog posts will be dynamically loaded here -->
+                    <article class="post-card">
+                        <header class="post-header">
+                            <h2 class="post-title">Sample Blog Post Title</h2>
+                            <p class="post-date">November 19, 2024</p>
+                        </header>
+
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lorem nec neque fermentum tempus. Suspendisse sit amet tortor dolor. Integer scelerisque dui felis, in vestibulum metus cursus vel.</p>
+                            <p>Aliquam erat volutpat. In dapibus vehicula metus, sed ullamcorper libero tincidunt nec. Nullam pretium euismod risus, non auctor mi placerat vel.</p>
+                            <p>Curabitur auctor, magna at viverra tincidunt, nisl ligula pretium libero, id efficitur elit sapien sit amet urna. Sed sodales risus non augue sollicitudin dictum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lorem nec neque fermentum tempus. Suspendisse sit amet tortor dolor. Integer scelerisque dui felis, in vestibulum metus cursus vel.</p>
+                            <p>Aliquam erat volutpat. In dapibus vehicula metus, sed ullamcorper libero tincidunt nec. Nullam pretium euismod risus, non auctor mi placerat vel.</p>
+                            <p>Curabitur auctor, magna at viverra tincidunt, nisl ligula pretium libero, id efficitur elit sapien sit amet urna. Sed sodales risus non augue sollicitudin dictum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lorem nec neque fermentum tempus. Suspendisse sit amet tortor dolor. Integer scelerisque dui felis, in vestibulum metus cursus vel.</p>
+                            <p>Aliquam erat volutpat. In dapibus vehicula metus, sed ullamcorper libero tincidunt nec. Nullam pretium euismod risus, non auctor mi placerat vel.</p>
+                            <p>Curabitur auctor, magna at viverra tincidunt, nisl ligula pretium libero, id efficitur elit sapien sit amet urna. Sed sodales risus non augue sollicitudin dictum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lorem nec neque fermentum tempus. Suspendisse sit amet tortor dolor. Integer scelerisque dui felis, in vestibulum metus cursus vel.</p>
+                            <p>Aliquam erat volutpat. In dapibus vehicula metus, sed ullamcorper libero tincidunt nec. Nullam pretium euismod risus, non auctor mi placerat vel.</p>
+                            <p>Curabitur auctor, magna at viverra tincidunt, nisl ligula pretium libero, id efficitur elit sapien sit amet urna. Sed sodales risus non augue sollicitudin dictum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lorem nec neque fermentum tempus. Suspendisse sit amet tortor dolor. Integer scelerisque dui felis, in vestibulum metus cursus vel.</p>
+                            <p>Aliquam erat volutpat. In dapibus vehicula metus, sed ullamcorper libero tincidunt nec. Nullam pretium euismod risus, non auctor mi placerat vel.</p>
+                            <p>Curabitur auctor, magna at viverra tincidunt, nisl ligula pretium libero, id efficitur elit sapien sit amet urna. Sed sodales risus non augue sollicitudin dictum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lorem nec neque fermentum tempus. Suspendisse sit amet tortor dolor. Integer scelerisque dui felis, in vestibulum metus cursus vel.</p>
+                            <p>Aliquam erat volutpat. In dapibus vehicula metus, sed ullamcorper libero tincidunt nec. Nullam pretium euismod risus, non auctor mi placerat vel.</p>
+                            <p>Curabitur auctor, magna at viverra tincidunt, nisl ligula pretium libero, id efficitur elit sapien sit amet urna. Sed sodales risus non augue sollicitudin dictum.</p>
+                        </div>
+
+                        <footer class="post-footer">
+                            <div class="post-tags">
+                                <span>Tags: </span><a href="#">Tag 1</a>, <a href="#">Tag 2</a>
+                            </div>
+                            <div class="post-share">
+                                <span>Share this post: </span>
+                                <button class="button">Facebook</button>
+                                <button class="button">Twitter</button>
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p>&copy; Don Lamar, 2024. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="/pages/js/blog.js"></script>
+</body>
+</html>
