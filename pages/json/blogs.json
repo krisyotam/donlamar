@@ -5,7 +5,7 @@
       "description": "An exploration of how artificial intelligence is shaping the future of creative fields like design, art, and entertainment.",
       "tags": ["AI", "Creative Industries", "Technology", "Future Trends"],
       "date": "2023-06-15",
-      "link": "/posts/future-of-ai-in-creative-industries"
+      "link": "/pages/html/posts/html/post1.html"
     },
     {
       "title": "Embracing Minimalism in Digital Design",
@@ -34,6 +34,13 @@
       "tags": ["Remote Work", "Work Culture", "Business", "Adaptation"],
       "date": "2023-05-25",
       "link": "/pages/html/posts/html/post1.html"
+    },
+    {
+      "title": "The Rise of Remote Work Culture",
+      "description": "Examining the shift towards remote work, its challenges, benefits, and how businesses can adapt to this new norm.",
+      "tags": ["Remote Work", "Work Culture", "Business", "Adaptation"],
+      "date": "2023-05-25",
+      "link": "/pages/html/posts/html/post6.html"
     }
   ]
 }
